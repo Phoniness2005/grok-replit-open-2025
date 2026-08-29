@@ -36,6 +36,12 @@ Kept version 1 as-is under `v1/`. Version 2 lives under `v2/` and is stacked abo
 - Mowing stripes, tramlines, centre net with mesh, tennis-ball seam, crowd in three rows on the seats.
 - 1600×900 canvas scaled in CSS. `imageSmoothingQuality = high`.
 
+### Window size and phones (later 2026-08-29)
+
+- Games open from the original post and the hub as **new windows**, not iframes. The court is sized to the leftover viewport after the HUD (16:9).
+- Phone: drag the court to move. Two-player splits left / right. On-screen Up, Down, and Pause. Full screen button.
+- Version 1 keeps the original court art, but the HUD is tied to the canvas, menus accept taps, and you can drag to move.
+
 ## Version 1 — 2025
 
 Original Grok/Replit build. 1200×900 canvas, keyboard-only menus, Wimbledon colours, wood-tinted paddles, crowd cheer on a point.
