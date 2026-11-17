@@ -1,0 +1,19 @@
+{
+  "name": "wimbledon-pong",
+  "private": true,
+  "description": "Wimbledon Pong static site, held to the Power of 10.",
+  "type": "module",
+  "scripts": {
+    "lint": "npm run lint:js && npm run lint:html && npm run lint:rules",
+    "lint:js": "eslint . --max-warnings 0",
+    "lint:html": "html-validate index.html v1/index.html v2/index.html",
+    "lint:rules": "node tools/check-power10.mjs"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "acorn": "^8.19.0",
+    "eslint": "^10.15.0",
+    "globals": "^17.14.0",
+    "html-validate": "^11.21.1"
+  }
+}
